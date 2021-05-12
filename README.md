@@ -28,7 +28,7 @@ To be able to play on your machine, you will need to change the ip address in th
 
 After making the change, save the files.
 
-Now, still inside the folder "rock-paper-scissors", you will run the command ```python server.py``` or ```python3 server.py``` (it depends on your system configuration).
+Now, still inside the folder "rock-paper-scissors" in the terminal, you will run the command ```python server.py``` or ```python3 server.py``` (it depends on your system configuration).
 
 To run the client application you will open two other terminals and access the same path that was used to reach the server application, but now the command used will be  ```python client.py``` or ```python3 client.py``` (it depends on your system configuration).
 
