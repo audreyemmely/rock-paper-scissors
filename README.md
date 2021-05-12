@@ -19,3 +19,7 @@ After cloning/downloading the repository, open the terminal and go to the path w
 Then access the folder named "rock-paper-scissors", inside there are four files named "client.py", "game.py", "network.py" and "server.py".
 
 To be able to play on your machine, you will need to change the ip address in the "network.py" and "server.py" files.
+
+![network](https://user-images.githubusercontent.com/52829664/118035280-6396b780-b341-11eb-9f70-a1e926668888.jpg)
+
+![server](https://user-images.githubusercontent.com/52829664/118035293-67c2d500-b341-11eb-8ed6-1d73dfa6d27f.jpg)
