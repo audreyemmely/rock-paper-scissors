@@ -15,5 +15,7 @@ git clone https://github.com/audreyemmely/rock-paper-scissors.git
 If you do not have Git installed on your machine, you can download the repository in "zip" format, just click on the green button named "Code" (top right) and choose the option "Download ZIP". After that, unzip the file and follow the next instructions.
 
 After cloning/downloading the repository, open the terminal and go to the path where the repository is located on your machine. (Ex .: C:\Users\Audrey\Desktop)
+
 Then access the folder named "rock-paper-scissors", inside there are four files named "client.py", "game.py", "network.py" and "server.py".
+
 To be able to play on your machine, you will need to change the ip address in the "network.py" and "server.py" files.
