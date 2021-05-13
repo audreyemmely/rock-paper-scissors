@@ -22,10 +22,6 @@ To be able to play on your machine, you will need to change the ip address in th
 
 To find the address that you should use in the server variable simply open cmd > type "ipconfig" > copy the IPV4 Address. Do this on whatever machine will be running the server script.
 
-![network](https://user-images.githubusercontent.com/52829664/118035280-6396b780-b341-11eb-9f70-a1e926668888.jpg)
-
-![server](https://user-images.githubusercontent.com/52829664/118035293-67c2d500-b341-11eb-8ed6-1d73dfa6d27f.jpg)
-
 After making the change, save the files.
 
 Now, using the terminal go to the path where the folder is located on your machine (Ex.: C:\Users\Audrey\Desktop\rock-paper-scissors).
