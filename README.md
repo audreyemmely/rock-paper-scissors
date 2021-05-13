@@ -18,7 +18,7 @@ If you do not have Git installed on your machine, you can download the repositor
 
 After cloning/downloading the repository, now using the terminal go to the path where the folder is located on your machine (Ex.: C:\Users\Audrey\Desktop\rock-paper-scissors).
 
-After access the folder "rock-paper-scissors" in the terminal, to be able to play on your machine you will need to inform your ip address, you will run the command ```python server.py``` or ```python3 server.py``` (it depends on your system configuration).
+After access the folder "rock-paper-scissors" in the terminal, you will run the command ```python server.py``` or ```python3 server.py``` (it depends on your system configuration), to be able to play on your machine you will need to inform your ip address.
 
 * To find the address that you should use simply open cmd > type "ipconfig" > copy the IPV4 Address. Do this on whatever machine will be running the server script.
 
