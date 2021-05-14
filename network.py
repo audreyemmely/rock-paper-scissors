@@ -4,7 +4,7 @@ import pickle
 class Network:
     def __init__(self):
 
-        serverIp = input("Server's ip address:")
+        serverIp = input("Enter the server's ip address:")
 
         self.client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.server = serverIp
