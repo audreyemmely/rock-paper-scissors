@@ -9,6 +9,7 @@ height = 700
 win = pygame.display.set_mode((width, height))
 pygame.display.set_caption("Rock, Paper, Scissors")
 
+
 class Button:
     def __init__(self, text, x, y, color):
         self.text = text
@@ -110,11 +111,11 @@ def main():
 
             font = pygame.font.SysFont("comicsans", 90)
             if (game.winner() == 1 and player == 1) or (game.winner() == 0 and player == 0):
-                text = font.render("YOU WON! :)", 1, (52, 205, 52))
+                text = font.render("YOU WON! :D", 1, (52, 205, 52))
             elif game.winner() == -1:
-                text = font.render("Tie Game!", 1, (255,0,0))
+                text = font.render("Tie game", 1, (255,0,0))
             else:
-                text = font.render("You lost :/", 1, (255, 0, 0))
+                text = font.render("You lost :(", 1, (255, 0, 0))
 
             win.blit(text, (width/2 - text.get_width()/2, height/2 - text.get_height()/2))
             pygame.display.update()

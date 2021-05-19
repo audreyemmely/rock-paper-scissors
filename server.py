@@ -3,7 +3,7 @@ from _thread import *
 import pickle
 from game import Game
 
-server = input("Enter the ip address that will be used to be the server:")
+server = input("Enter the ip address that will be used to be the server: ")
 port = 5555
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -49,8 +49,27 @@ def threaded_client(conn, p, gameId):
     print("Lost connection")
     try:
         del games[gameId]
-        print("Closing game", gameId)
+        print("Closing Game", gameId)
     except:
         pass
     idCount -= 1
     conn.close()
+
+
+
+while True:
+    conn, addr = s.accept()
+    print("Connected to:", addr)
+
+    idCount += 1
+    p = 0
+    gameId = (idCount - 1)//2
+    if idCount % 2 == 1:
+        games[gameId] = Game(gameId)
+        print("Creating a new game...")
+    else:
+        games[gameId].ready = True
+        p = 1
+
+
+    start_new_thread(threaded_client, (conn, p, gameId))
