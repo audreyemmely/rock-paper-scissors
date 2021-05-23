@@ -43,6 +43,7 @@ To run the client application you will open two other terminals and access the s
 ### client.py
 
 ### game.py
+In this file we take the player's choice and decide based on the rules who will be the winner/loser of the play, if it is not a tie.
 
 ### network.py
 It's a basic class capable of connecting to the server and sending/receiving information about the state of the player. 
