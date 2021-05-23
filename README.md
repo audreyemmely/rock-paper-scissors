@@ -14,13 +14,28 @@ With the library installed, you will now clone this repository on your local mac
 ```
 git clone https://github.com/audreyemmely/rock-paper-scissors.git
 ```
+
 If you do not have Git installed on your machine, you can download the repository in "zip" format, just click on the green button named "Code" (top right) and choose the option "Download ZIP". After that, unzip the file and follow the next instructions.
 
-After cloning/downloading the repository, now using the terminal go to the path where the folder is located on your machine (Ex.: C:\Users\Audrey\Desktop\rock-paper-scissors).
+After cloning/downloading the repository, open the terminal and go to the path where the repository is located on your machine. (Ex .: C:\Users\Audrey\Desktop)
 
-After access the folder "rock-paper-scissors" in the terminal, you will run the command ```python server.py``` or ```python3 server.py``` (it depends on your system configuration), to be able to play on your machine you will need to inform your ip address.
+Then access the folder named "rock-paper-scissors", inside there are four files named "client.py", "game.py", "network.py" and "server.py".
+After cloning/downloading the repository, find where the repository is located on your machine and open the folder named "rock-paper-scissors". Inside there are four files named "client.py", "game.py", "network.py" and "server.py".
 
-* To find the address that you should use simply open cmd > type "ipconfig" > copy the IPV4 Address. Do this on whatever machine will be running the server script.
+To be able to play on your machine, you will need to change the ip address in the "network.py" and "server.py" files. Open the files with the editor of your choice (here we use Visual Studio Code).
+
+To find the address that you should use in the server variable simply open cmd > type "ipconfig" > copy the IPV4 Address. Do this on whatever machine will be running the server script.
+
+![network](https://user-images.githubusercontent.com/52829664/118035280-6396b780-b341-11eb-9f70-a1e926668888.jpg)
+
+![server](https://user-images.githubusercontent.com/52829664/118035293-67c2d500-b341-11eb-8ed6-1d73dfa6d27f.jpg)
+
+After making the change, save the files.
+
+Now, still inside the folder "rock-paper-scissors" in the terminal, you will run the command ```python server.py``` or ```python3 server.py``` (it depends on your system configuration).
+Now, using the terminal go to the path where the folder is located on your machine (Ex.: C:\Users\Audrey\Desktop\rock-paper-scissors).
+
+After access the folder "rock-paper-scissors" in the terminal, you will run the command ```python server.py``` or ```python3 server.py``` (it depends on your system configuration).
 
 To run the client application you will open two other terminals and access the same path that was used to reach the server application, but now the command used will be  ```python client.py``` or ```python3 client.py``` (it depends on your system configuration).
 
