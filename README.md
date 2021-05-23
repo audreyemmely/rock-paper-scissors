@@ -41,6 +41,7 @@ To run the client application you will open two other terminals and access the s
 
 ## About the files
 ### client.py
+Here the interface is initialized, the player can start the game and choose what his move will be, and at the end the result will be shown for each one.
 
 ### game.py
 In this file we take the player's choice and decide based on the rules who will be the winner/loser of the play, if it is not a tie.
