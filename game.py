@@ -9,10 +9,6 @@ class Game:
         self.ties = 0
 
     def get_player_move(self, p):
-        """
-        :param p: [0,1]
-        :return: Move
-        """
         return self.moves[p]
 
     def play(self, player, move):
