@@ -35,6 +35,8 @@ After access the folder "rock-paper-scissors" in the terminal, you will run the 
 
 To run the client application you will open two other terminals and access the same path that was used to reach the server application, but now the command used will be  ```python client.py``` or ```python3 client.py``` (it depends on your system configuration).
 
+Now all you need to do is play! **HAVE FUN! :)**
+
 ## About the files
 ### client.py
 Here the interface is initialized, the player can start the game and choose what his move will be, and at the end the result will be shown for each one.
