@@ -21,7 +21,7 @@ After cloning/downloading the repository, find where the repository is located o
 
 To be able to play on your machine, you will need to change the ip address in the "network.py" and "server.py" files. Open the files with the editor of your choice (here we use Visual Studio Code).
 
-To find the address that you should use in the server variable simply open cmd > type "ipconfig" > copy the IPV4 Address. Do this on whatever machine will be running the server script.
+* To find the address that you should use in the server variable simply open cmd > type "ipconfig" > copy the IPV4 Address. Do this on whatever machine will be running the server script.
 
 ![network](https://user-images.githubusercontent.com/52829664/118035280-6396b780-b341-11eb-9f70-a1e926668888.jpg)
 
