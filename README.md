@@ -1,6 +1,11 @@
 # Rock, paper, scissors game
 Project made for the discipline of computer networks, using sockets, threads and multiclients
 
+#### Team members:
+Audrey Emmely Rodrigues Vasconcelos
+
+Hector Santana Pinheiro
+
 ## How to play?
 First of all, you will need to install Python (if you don't already have it on your system), here we use version 3.9.5 but any version >= 3 is ok, for more details on how to install see the [language website](https://www.python.org/downloads/).
 
